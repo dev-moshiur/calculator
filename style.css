@@ -43,7 +43,7 @@ body {
 }
 .mode .switch {
   width: 50px;
-  height: 23px;
+  height: 25px;
   background-color: var(--color-four);
   position: absolute;
   top: 0;
