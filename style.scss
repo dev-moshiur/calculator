@@ -154,6 +154,9 @@ body{
           font-weight: 500;
           transition: 0.4s;
           cursor: pointer;
+          @media (max-width:50px) {
+            cursor: none;
+          }
           &:hover {
             background-color: var(--color-three);
             // font-size: 29px;
@@ -178,6 +181,9 @@ body{
           justify-content: center;
           align-items: center;
           transition: 0.4s;
+          @media (max-width:50px) {
+            cursor: none;
+          }
           &:hover {
             background-color: var(--color-three);
             // font-size: 29px;
@@ -204,6 +210,9 @@ body{
         font-weight: 500;
         transition: 0.4s;
         cursor: pointer;
+        @media (max-width:50px) {
+            cursor: none;
+          }
         &:hover {
           background-color: var(--color-three);
           // font-size: 29px;

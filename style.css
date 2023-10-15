@@ -152,6 +152,11 @@ body {
   transition: 0.4s;
   cursor: pointer;
 }
+@media (max-width: 50px) {
+  .container .buttons .left .top > * {
+    cursor: none;
+  }
+}
 .container .buttons .left .top > *:hover {
   background-color: var(--color-three);
 }
@@ -175,6 +180,11 @@ body {
   align-items: center;
   transition: 0.4s;
 }
+@media (max-width: 50px) {
+  .container .buttons .left .bottom > * {
+    cursor: none;
+  }
+}
 .container .buttons .left .bottom > *:hover {
   background-color: var(--color-three);
 }
@@ -197,6 +207,11 @@ body {
   font-weight: 500;
   transition: 0.4s;
   cursor: pointer;
+}
+@media (max-width: 50px) {
+  .container .buttons .right > * {
+    cursor: none;
+  }
 }
 .container .buttons .right > *:hover {
   background-color: var(--color-three);
