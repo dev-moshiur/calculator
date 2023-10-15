@@ -63,3 +63,9 @@ const cleared = () => {
   resultContainer.innerHTML = "";
   operatorentered = false;
 };
+
+const modeToggle = ()=> {
+
+    document.body.classList.toggle('nightMode')
+    document.getElementById('mode').classList.toggle('night')
+}
